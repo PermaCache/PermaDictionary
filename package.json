@@ -1,0 +1,24 @@
+{
+  "name": "PermaDictionary",
+  "version": "1.0.0",
+  "description": "- bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PermaCache/PermaDictionary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PermaCache/PermaDictionary/issues"
+  },
+  "homepage": "https://github.com/PermaCache/PermaDictionary#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "node-fetch": "^2.6.1"
+  }
+}
