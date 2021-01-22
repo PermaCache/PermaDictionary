@@ -1,1 +1,2 @@
 # PermaDicionary
+- bot
