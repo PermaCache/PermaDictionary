@@ -1,2 +1,3 @@
 # PermaDicionary
-- bot
+- Discord.js package
+- Urban Dictionary API
