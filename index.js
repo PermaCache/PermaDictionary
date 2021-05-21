@@ -1,6 +1,7 @@
 // Extract fetch from the module
 const fetch = require("node-fetch")
-    
+const TOKEN = require('config.json').TOKEN;    
+
 const prefix = "\\"
 // Extract the required classes from the discord.js module
 const { Client, MessageEmbed } = require('discord.js');
@@ -52,5 +53,5 @@ client.on('message', async message => {
 });
 
 // Log our bot in using the token from https://discord.com/developers/applications
-client.login('Your Token');    
+client.login(TOKEN);    
 
